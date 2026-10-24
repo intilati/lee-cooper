@@ -1,0 +1,6 @@
+INSERT INTO products ("id", "name", "color", "swatch", "images", "sprite", "sample", "description", "price", "position") VALUES
+('olive-cargo', 'Multi-Pocket Cargo', 'Dark Olive', '#414536', '["/assets/cargo-front.jpg", "/assets/cargo-side.jpg"]', NULL, FALSE, 'A versatile cargo silhouette with functional pockets and a relaxed fit. Explore the details from every angle.', NULL, 0),
+('black-cargo', 'Tapered Cargo', 'Black', '#252525', '[]', '0% 0%', TRUE, 'A versatile cargo silhouette with functional pockets and a relaxed fit. Explore the details from every angle.', NULL, 1),
+('sand-cargo', 'Relaxed Cargo', 'Sand', '#b7a389', '[]', '50% 0%', TRUE, 'A versatile cargo silhouette with functional pockets and a relaxed fit. Explore the details from every angle.', NULL, 2),
+('brown-cargo', 'Utility Cargo', 'Brown', '#79553d', '[]', '50% 100%', TRUE, 'A versatile cargo silhouette with functional pockets and a relaxed fit. Explore the details from every angle.', NULL, 3),
+('0556204f-41ea-48e4-a903-67265d9cae49', 'istak', 'black', '#414536', '["/assets/istak.png"]', NULL, FALSE, 'A versatile cargo silhouette with functional pockets and a relaxed fit. Explore the details from every angle.', NULL, 4);

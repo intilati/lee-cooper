@@ -1,0 +1,47 @@
+[build]
+  publish = "public"
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+[dev]
+  publish = "public"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Apply role checks before serving existing management files.
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+  force = true
+  conditions = { Role = ["admin"] }
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+  force = true
+  conditions = { Role = ["admin"] }
+[[redirects]]
+  from = "/admin"
+  to = "/owner-login/"
+  status = 302
+  force = true
+[[redirects]]
+  from = "/admin/*"
+  to = "/owner-login/"
+  status = 302
+  force = true
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "private, no-store"
+    X-Robots-Tag = "noindex, nofollow"
+[[headers]]
+  for = "/owner-login/*"
+  [headers.values]
+    Cache-Control = "private, no-store"
+    X-Robots-Tag = "noindex, nofollow"

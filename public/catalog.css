@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.sprite-photo { display: block; aspect-ratio: 3 / 4; background-image: url("assets/cargo-styles.png"); background-size: 300% 200%; background-repeat: no-repeat; background-color: rgb(233, 233, 231); }
+
+.card-image > .sprite-photo { position: absolute; inset: 0px; width: 100%; height: 100%; }
+
+.sample-label { position: absolute; top: 14px; left: 14px; font-size: 8px; letter-spacing: 1px; background: rgba(255, 255, 255, 0.8); padding: 7px 8px; }
+
+.sample-detail { font-size: 9px; letter-spacing: 1.5px; color: var(--muted); margin-top: 18px; }
+
+.cart-item .cart-photo { display: block; width: 95px; aspect-ratio: 3 / 4; }
+
+.thumb .sprite-photo { width: 100%; }
+
+.product-price { font-size: 20px; margin: 22px 0px 0px; }
+
+.card-price { margin-top: 10px !important; color: rgb(32, 32, 31) !important; }
+
+.owner-login { position: fixed; right: 10px; bottom: 10px; width: 32px; height: 32px; display: grid; place-items: center; color: rgb(166, 166, 160); background: rgba(255, 255, 255, 0.85); border: 1px solid rgb(238, 238, 234); border-radius: 50%; z-index: 5; transition: color 0.2s, border-color 0.2s; }
+
+.owner-login svg { width: 15px; height: 15px; }
+
+.owner-login:hover, .owner-login:focus-visible { color: rgb(216, 0, 50); border-color: rgb(216, 0, 50); outline-offset: 3px; }.gallery-main.sprite-photo { aspect-ratio: 3 / 4; }
+.bag-open { overflow: hidden; }
+.product-card:focus-visible .alternate { opacity: 1; }
+#mainPhoto { background: #e9e9e7; }

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#e7e5dc"/>
+<ellipse cx="405" cy="890" rx="205" ry="35" fill="#c7c5bb"/>
+<path d="M270 115 L385 145 L415 145 L530 115 L585 285 L525 325 L500 275 L515 835 L420 855 L400 420 L380 855 L285 835 L300 275 L275 325 L215 285 Z" fill="#344a37" stroke="#253629" stroke-width="9" stroke-linejoin="round"/>
+<path d="M300 280 L500 280 M310 390 L490 390 M305 520 L495 520" stroke="#253629" stroke-width="8" fill="none"/>
+<rect x="300" y="310" width="85" height="120" rx="5" fill="#344a37" stroke="#253629" stroke-width="8"/>
+<rect x="415" y="310" width="85" height="120" rx="5" fill="#344a37" stroke="#253629" stroke-width="8"/>
+<path d="M315 330 L370 330 M430 330 L485 330" stroke="#253629" stroke-width="5"/>
+<path d="M390 150 L390 280 M410 150 L410 280" stroke="#253629" stroke-width="5"/>
+<text x="400" y="945" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" letter-spacing="5" fill="#55574f">PRODUCT PHOTO PLACEHOLDER</text>
+</svg>
